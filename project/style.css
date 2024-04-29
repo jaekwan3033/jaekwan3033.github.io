@@ -1,0 +1,232 @@
+* {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    color:grey;
+}
+
+.topnav {
+    background-color: white;
+    width: 1150px;
+    margin: 0px auto;
+}
+
+.topnav a {
+    position: relative;
+    bottom: 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    border-radius: 15%;
+}
+
+.topnav .active{
+    background-color: #003b5c;
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: #003b5c;
+    color: white;
+}
+
+.topnav span {
+    color: #003b5c;
+    font-weight: bold;
+}
+
+.line {
+    border: solid 3px #003b5c;
+    position: relative;
+}
+
+#intro {
+    font-size:10px;
+    color: grey;
+    position: relative;
+    left: 140px;
+    bottom: 13px;
+}
+
+.jumbotron {
+    background-image: url("./Steel Coil.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 1150px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.jumbotron .UpperBanner{
+    color: #003b5c;
+    font-size: 35px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px white;
+    position: relative;
+    top: 15px;
+}
+
+.jumbotron .LowerBanner{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-text-stroke: 0.5px #003b5c;
+    position: relative;
+    top: 60px;
+}
+
+.jumbotron .FooterBanner{
+    color: #003b5c;
+    background-color:rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.article {
+    letter-spacing: 3px;
+    width:1150px;
+    text-align: left;
+    margin: auto;
+}
+
+.block {
+    margin: auto;
+    text-align: center;
+    width:1150px;
+    height: 360px;
+}
+
+.block1 {
+    background-image: url("./block1.webp");
+    background-size:cover;
+    display: inline-block;
+    position: relative;
+    width: 263px;
+    height: 340px;
+    margin: 10px 10px 10px 0px;
+}
+.block2 {
+    background-image: url("./block2.webp");
+    background-size:cover;
+    display: inline-block;
+    position: relative;
+    width: 263px;
+    height: 340px;
+    margin: 10px;
+}
+.block3 {
+    background-image: url("./block3.webp");
+    background-size:cover;
+    display: inline-block;
+    position: relative;
+    width: 263px;
+    height: 340px;
+    margin: 10px;
+}
+.block4 {
+    background-image: url("./block4.webp");
+    background-size:cover;
+    display: inline-block;
+    position: relative;
+    width: 263px;
+    height: 340px;
+    margin: 10px 0px 10px 10px;
+}
+
+.block_title {
+    color:white;
+    font-weight: bold;
+}
+
+.block_desc {
+    background-color:rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 14px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+}
+
+.contact {
+    text-align: center;
+    width:1150px;
+    height: 260px;
+    margin: 0px auto 10px;
+}
+
+.factory_info {
+    color: #003b5c;
+    font-weight: bold;
+    position: relative;
+    margin: 0px;
+}
+
+.al {
+    display: inline-block;
+    position: absolute;
+    left:50px;
+    line-height: 2;
+}
+
+.in {
+    display: inline-block;
+    position: absolute;
+    right:50px;
+    line-height: 2;
+}
+
+.state {
+    color: #003b5c;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+
+footer {
+    background-color: black;
+    color:grey;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+}
+
+.container {
+    display: inline-block;
+    width: 450px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.mid_container {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    font-size: 8px;
+    padding: 10px;
+}
+
+.container a{
+    margin: 0 3px;
+}
+
+
