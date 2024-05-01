@@ -1,0 +1,220 @@
+
+/*Css for all elements*/
+* {
+    font-family: Helvetica, Arial,  sans-serif;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+/*CSS for Header */
+
+header {
+    background-image: url(background.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%; 
+    height: 420px;
+    opacity: 0.9;
+    text-align: center;
+    position: relative;
+    background-color: rgb(228, 172, 89);
+}
+
+header h1 {
+    font-size: 140px;
+    color:rgb(138, 41, 138);
+    border: 8px solid rgb(82, 26, 82);
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+}
+
+/* CSS for Body */
+main {
+    background-color: #F7F7F7;
+    width: 70%;
+}
+
+.box {
+    text-align: center;
+    font-weight: bold;
+}
+
+.model {
+    background-color: #F7F7F7;
+    font-size: 25px;
+}
+
+
+/*Heigh and Width Section*/
+.heightwidth {
+    height: 300px;
+    font-size: 25px;
+    background-color: darkseagreen;
+    position: relative;
+}
+
+.heightwidth .content{
+    border: 5px dotted darkgreen;
+    width: 25%;
+    margin: auto;
+    display: inline-block;
+}
+
+.heightwidth hr{
+    border: none;
+    width: 25%;
+    height: 2px;
+    background-color: darkgreen;
+}
+
+.heightwidth hr,#width {
+    position: relative;
+    left: 20px;
+}
+
+#width {
+    position: relative;
+    bottom: 20px;
+}
+
+.heightwidth .content p{
+    vertical-align: top;
+}
+
+.vertical {
+    border-left: 2.5px solid darkgreen;
+    height: 90px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+}
+
+.verticalP {
+    display: inline-block;
+    vertical-align: top;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-weight: bold;
+}
+
+/*Border Section */
+.border {
+    background-color: rgb(167, 127, 109);
+    height: 300px;
+    font-size: 25px;
+    position: relative;
+}
+
+.border .borderout{
+    border: 5px dotted rgb(87, 38, 10);
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.border .borderin{
+    border: 2px solid rgb(87, 38, 10);
+    width: 25%;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.border #intro {
+    position: relative;
+    top: 130px;
+}
+
+
+/*Padding*/
+
+.padding {
+    background-color: rgb(180, 168, 59);
+    height: 300px;
+    font-size: 25px;
+    position: relative;
+}
+
+.padding .borderout{
+    border: 5px dotted rgb(87, 38, 10);
+    width: 40%;
+    height: 160px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.padding .borderin{
+    border: 2px solid rgb(87, 38, 10);
+    width: 25%;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*margin*/
+
+.margin {
+    text-align: center;
+    background-color: brown;
+    height: 300px;
+    font-size: 25px;
+    position: relative;
+}
+
+.marginone .borderout{
+    border: 5px dotted rgb(37, 10, 87);
+    width: 20%;
+    height: 160px;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.marginone .borderin{
+    border: 2px solid rgb(37, 10, 87);
+    width: 15%;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.margintwo .borderout{
+    border: 5px dotted rgb(37, 10, 87);
+    width: 20%;
+    height: 160px;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.margintwo .borderin{
+    border: 2px solid rgb(37, 10, 87);
+    width: 15%;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+#marginex {
+    position: relative;
+    top: 50px;
+}
