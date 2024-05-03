@@ -1,0 +1,216 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    border: 2px solid darkgray;
+    width: 80%;
+    margin: 10px auto;  
+    padding: 10px 0;
+    position: relative;
+}
+
+
+
+
+.colors {
+    text-align: center;
+    position:relative;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+} 
+
+.color1 {
+    background-color: #050A0E;
+    display: inline-block;
+    width: 19%;
+    border: 1px solid darkgrey;
+    color:#FAFAFA; 
+    padding: 30px 0;
+}
+
+.color2 {
+    background-color: #FCEE09;
+    display: inline-block;
+    width: 19%;
+    border: 1px solid darkgrey;
+    padding: 30px 0;
+}
+
+.color3 {
+    background-color: #FF003C;
+    display: inline-block;
+    width: 19%;
+    border: 1px solid darkgrey;
+    padding: 30px 0;
+}
+
+.color4 {
+    background-color: #00F0FF;
+    display: inline-block;
+    width: 19%;
+    border: 1px solid darkgrey;
+    padding: 30px 0;
+}
+
+.color5{
+    background-color: #FAFAFA;
+    display: inline-block;
+    width: 19%;
+    border: 1px solid darkgrey;
+    padding: 30px 0;
+}
+
+
+
+
+
+.fonts{
+    position:relative;
+    font-size: 23px;
+    margin: 10px;
+    text-align:center;
+}
+
+.orbitron {
+    border: 1px solid darkgrey;
+    display: inline-block;
+    width: 32%;
+    height: 11em;
+    vertical-align: top;
+}
+
+.orb-label, .orb-normal, .orb-bold, .orb-italic{
+    font-family: "Orbitron", sans-serif;
+}
+
+.orb-label {
+    font-weight: bold;
+    font-size: 25 px;
+    text-decoration: underline;
+}
+
+.orb-bold {
+    font-weight: bold;
+}
+
+.orb-italic {
+    font-style: italic;
+}
+
+.sedgwick {
+    border: 1px solid darkgrey;
+    display: inline-block;
+    width: 32%;
+    height: 11em;
+    vertical-align: top;
+}
+
+.sed-label, .sed-normal, .sed-bold, .sed-italic {
+    font-family:"Sedgwick Ave Display", cursive;
+}
+
+.sed-label {
+    font-weight: bold;
+    font-size: 25 px;
+    text-decoration: underline;
+}
+
+.sed-bold {
+    font-weight: bold;
+}
+
+.sed-italic {
+    font-style: italic;
+}
+
+.teko {
+    border: 1px solid darkgrey;
+    display: inline-block;
+    width: 32%;
+    height: 11em;
+    vertical-align: top;
+}
+
+.teko-label, .teko-normal, .teko-bold, .teko-italic{
+    font-family: "teko", sans-serif;
+}
+
+.teko-label {
+    font-weight: bold;
+    font-size: 25 px;
+    text-decoration: underline;
+}
+
+.teko-bold {
+    font-weight: bold;
+}
+
+.teko-italic {
+    font-style: italic;
+}
+
+
+
+.texts{
+    position:relative;
+    font-size: 15px;
+    margin: 10px;
+    text-align:center;
+}
+
+.h1 {
+    border: 1px solid darkgrey;
+    display: inline-block;
+    width: 32%;
+    height: 11em;
+    vertical-align: top;
+    text-align: left;
+}
+
+.h1 h1 {
+    font-size:33px;
+    font-weight:800;
+}
+
+.h2 {
+    border: 1px solid darkgrey;
+    display: inline-block;
+    width: 32%;
+    height: 11em;
+    vertical-align: top;
+    text-align: left;
+}
+
+.h2 h2 {
+    font-size:25px;
+    font-weight:600;
+}
+
+.p {
+    border: 1px solid darkgrey;
+    display: inline-block;
+    width: 32%;
+    height: 11em;
+    vertical-align: top;
+    text-align: left;
+}
+
+.p p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 45px;
+    position: relative;
+    left: 10%;
+}
+
+.sub {
+    text-align: left;
+    font-size: 35px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
