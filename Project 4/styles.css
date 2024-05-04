@@ -1,0 +1,141 @@
+
+/*Body*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*Main, Footer for Fixed header*/
+main, footer {
+    position: relative;
+    top: 62px;
+}
+
+/*header*/
+.heading {
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    margin: 0 10px;
+    width: 99%;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+#headingpic {
+    height: 50px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav ul li a {
+    color:seashell;
+}
+
+
+/*main*/
+
+/* Jumbotron */
+.jumbotron{
+    height:700px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*uo83nx*_ga*Mzc5NTcyNDQ1Ni4xNzE0MDA5NTY4*_ga_3LRZM6TM9L*MTcxNDc5MDM0OS4yMC4xLjE3MTQ3OTA1MzYuNjAuMC4w');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.jumbotron .banner {
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
+
+/* Container */
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container.tea {
+    width: 1000px;
+}
+
+.midcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.smallcontainer {
+    margin:0 10px;
+}
+
+.smallcontainer .text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.smallcontainer .text h4 {
+    margin: 10px 0;
+}
+
+
+
+.container.location {
+    width: 1200px;
+    height: 500px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*15z6mp0*_ga*Mzc5NTcyNDQ1Ni4xNzE0MDA5NTY4*_ga_3LRZM6TM9L*MTcxNDc5MDM0OS4yMC4xLjE3MTQ3OTA1MzYuNjAuMC4w');
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.loc {
+    display: flex;
+}
+
+.loc .loctxt{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0 20px;
+}
+
+#tetle {
+    display: flex;
+}
+
+#tetle h2 {
+    margin: 15px 0;
+}
+
+.address {
+    text-align: center;
+    height: 200px;
+}
+
+
+/*Footer*/
+.footer {
+    margin: 20px;
+    text-align: left;
+}
+
