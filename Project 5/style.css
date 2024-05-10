@@ -1,0 +1,362 @@
+/*Reset preset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+body {
+    max-width:100%;
+}
+
+main, footer {
+    position: relative;
+    top: 4.4rem;
+}
+
+
+.container {
+    display:flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: orangered;
+    padding: 0.5rem;
+    color: white;
+}
+
+/*Navigation Panel*/
+
+.nav {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    z-index:100;
+}
+
+.container.navi {
+    justify-content: space-between;
+}
+
+.nav li {
+    display:inline-block;
+    margin: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgba(211, 211, 211, 0.795);
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav #name {
+    color:white;
+}
+
+.nav h3 {
+    font-family: "anton", sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+
+/*Banner*/
+
+.banner {
+    width: 100%;
+    height: 50rem;
+    background-image: url("Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container.ban {
+    height: 40rem;
+}
+
+.bantext {
+    border-top: 2px solid white;
+}
+
+.bantext h1 {
+    font-size: 4.5rem;
+    color:white;
+    font-family: "anton",  sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.bantext h2 {
+    font-size: 1.5rem;
+    color:white;
+    margin-top:4rem;
+}
+
+.banner .banner_bottom{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+.banner_bottom p {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    position: relative;
+    top: 25%;
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.banner_bottom .button {
+    font-weight: bold;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 24%;
+}
+
+.banner_bottom .button:hover {
+    background-color: white;
+    color: orangered;
+}
+
+
+
+/*Product*/
+
+.product {
+    border-top: 1px solid black;
+    width: 75%;
+    margin: 6rem auto;
+    padding-top: 1rem;
+    height: 32rem;
+}
+
+.sub_title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.container.prod{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 1.2rem 0;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    gap: 0.6rem;
+}
+
+.item_long1 {
+    background-image: url("Coil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 62%;
+    height: 13rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.item1 {
+    background-image: url("storage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32%;
+    height: 13rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.item2 {
+    background-image: url("logistics.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32%;
+    height: 13rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.item_long2 {
+    background-image: url("Wire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 62%;
+    height: 13rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.product .button {
+    background-color: White;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    left: 0.5rem;
+    top: 8rem; 
+}
+
+.product .button.one {
+    position: relative;
+    top: 6.4rem;
+}
+
+.product .button:hover{
+    background-color: black;
+    color:white;
+}
+
+.product .button.one:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+/*Crew*/
+.crew {
+    border-top: 1px solid black;
+    width: 75%;
+    margin: 6rem auto;
+    padding-top: 1rem;
+    height: auto;
+}
+
+.container.cru{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin: 1.2rem 0;
+    gap: 0.6rem;
+}
+
+.crew_pic1 {
+    display: flex;
+    background-image: url('ceo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 16.3rem;
+    height: 16rem;
+}
+
+.crew_pic2 {
+    display: flex;
+    background-image: url('factory.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16.3rem;
+    height: 16rem;
+}
+
+.crew_pic3 {
+    display: flex;
+    background-image: url('sales.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 16.3rem;
+    height: 16rem;
+}
+
+.crew_pic4 {
+    display: flex;
+    background-image: url('cfo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16.3rem;
+    height: 16rem;
+}
+
+.name {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white
+}
+
+.nametag {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height:3rem;
+    padding-left: 0.3rem;
+}
+
+.nametag h3 {
+    font-size: 0.7rem;
+}
+
+
+/*Contact*/
+.contact {
+    border-top: 1px solid black;
+    width: 75%;
+    margin: 6rem auto;
+    padding-top: 1rem;
+}
+
+.container.contac{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.factory{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.location {
+    width: 15rem;
+}
+
+
+/*Footer*/
+footer{
+    background-color: black;
+    height: 3rem;
+    color: grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
